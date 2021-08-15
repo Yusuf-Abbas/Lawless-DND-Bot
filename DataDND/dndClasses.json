@@ -1,0 +1,77 @@
+{
+    "Barbarian": {
+      "Skill Proficiencies":["Animal Handling", "Athletics", "Intimidation", "Nature", "Perception","Survival"],
+      
+      "Subclasses":["Ancestral Guardian","Battle Rager","Beast","Berserker","Storm Herald","Totem Warrior","Wild Magic"]
+      },
+    
+    "Bard":{
+      "Skill Proficiencies":["Acrobatics", "Animal Handling", "Arcana", "Athletics", "Deception", "History", "Insight", "Intimidation", "Investigation", "Medicine", "Nature", "Perception", "Performance", "Persuasion", "Religion", "Sleight of Hand", "Stealth", "Survival"],
+      
+      "Subclasses":["Creation","Eloquence","Glamour","Lore","Spirits","Swords","Valor"," Whispers"]
+      },
+    
+    "Cleric":{
+      "Skill Proficiencies":["History","Insight","Medicine","Persuasion","Religion"], 
+      
+      "Subclasses":["Arcana","Death","Forge","Grave","Knowledge","Life","Light","Nature","Order","Peace","Tempest","Trickery","Twilight","War"]
+      },
+    
+    "Druid":{
+      "Skill Proficiencies":["Arcana","Animal Handling","Insight","Medicine","Nature","Perception","Religion","Survival"],
+      
+      "Subclasses":["Dreams","Land","Moon","Shepherd","Spores","Stars","Wildfire"]
+      },
+    
+    "Fighter":{
+      "Skill Proficiencies":["Acrobatics", "Animal Handling", "Athletics", "History", "Insight", "Intimidation", "Perception", "Survival"],
+      
+      "Subclasses":["Arcane Archer","Bannert","Battle Master","Cavalier","Champion","Echo Knight","Eldritch Knight","Psi Warrior","Rune Knight","Samurai"]},
+    
+    "Monk":{
+      "Skill Proficiencies":["Acrobatics", "Athletics", "History", "Insight", "Religion", "Stealth"],
+      
+      "Subclasses":["Astral Self","Drunken Master","Four Elements","Kensei","Long Death","Mercy","Open Hand","Shadow","Sun Soul"]
+      },
+    
+    "Paladin":{
+      "Skill Proficiencies":["Athletics", "Insight", "Intimidation", "Medicine", "Persuasion", "Religion"],
+      
+      "Subclasses":["Ancients","Conquest","Crown","Devotion","Glory","Redemption","Vengeance","Watchers","Oathbreaker"]
+      },
+    
+    "Ranger":{
+      "Skill Proficiencies":["Animal Handling", "Athletics", "Insight", "Investigation", "Nature", "Perception", "Stealth", "Survival"],
+      
+      "Subclasses":["Beast Master","Fey Wanderer","Gloom Stalker","Horizon Walker","Hunter","Monster Slayer","Swarmkeeper"]
+      },
+    
+    "Rogue":{
+      "Skill Proficiencies":["Acrobatics", "Athletics", "Deception", "Insight", "Intimidation", "Investigation", "Perception", "Performance", "Persuasion", "Sleight of Hand", "Stealth"],
+      
+      "Subclasses":["Arcane Trickster","Assassin","Inquisitive","Mastermind","Phantom","Scout","Soul Knife","Swashbuckler","Thief"]
+      },
+    
+    "Sorcerer":{
+      "Skill Proficiencies":["Arcana", "Deception", "Insight", "Intimidation", "Persuasion", "Religion"],
+      
+      "Subclasses":["Abberant Mind","Clockwork Soul","Draconic Bloodline","Divine Soul","Shadow","Storm","Wild Magic"]
+      },
+    
+    "Warlock":{
+      "Skill Proficiencies":["Arcana", "Deception", "History", "Intimidation", "Investigation", "Nature", "Religion"],
+      
+      "Subclasses":["Archfey","Celestial","Fathomless","Fiend","The Genie","Great Old One","Hexblade","Undead","Undying"]
+      },
+    
+    "Wizard":{
+      "Skill Proficiencies":["Arcana", "History", "Insight", "Investigation", "Medicine", "Religion"],
+      
+      "Subclasses":["Abjuration","Bladesinger","Chronurgy","Conjuration","Divination","Enchantment","Evocation","Graviturgy","Illusion","Necromancy","Order of Scribes","Transmutation","War Magic"]
+      },
+    
+    "Artificer":{
+      "Skill Proficiencies":["Arcana", "History", "Investigation", "Medicine", "Nature", "Perception", "Sleight of Hand"],
+      
+      "Subclasses":["Alchemist","Armorer","Artillerist","Battle Smith"]}
+}

@@ -1,0 +1,48 @@
+Ability Score
+Age
+Alignment
+Size
+Speed
+Languages
+
+
+with open ("./Races/Gnome.txt") as text:
+  gnomes = text.readlines()
+text.close()
+
+gnomeFeats = []
+gnomeSize = len(gnomes)
+
+for i in range(6, gnomeSize):
+  gnomeFeats.append(gnomes[i])
+
+
+  @bot.command()
+async def gnome(ctx):
+  for i in range(0, 5):
+    await ctx.send(gnomes[i])
+
+  await ctx.send("**FEATS**")
+  for i in gnomeFeats:
+    await ctx.send(i)
+
+
+  selections
+  @commands.command()
+ async def selection(self, ctx):
+    choices = ['red', 'blue', 'green', 'yellow']
+    color = await ui.select(ctx, 'What is your favorite color?', choices)
+    await ctx.send(f'Your favorite color is {color}')
+
+
+
+  @commands.command()
+  async def selection2(self, ctx):
+    choices = [ui.Choice('Bored', button='😐'), ui.Choice('Angry', button='😠'), ui.Choice('Tired', button='😴')]
+    feeling = await ui.select(ctx, 'How are you feeling right now?', choices)
+    if feeling == 'Bored':
+      await ctx.send('Sorry to hear that.')
+    elif feeling == 'Angry':
+      await ctx.send('Take a break and cool off.')
+    elif feeling == 'Tired':
+      await ctx.send('Get your self to bed.')
