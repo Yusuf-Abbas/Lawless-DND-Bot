@@ -12,4 +12,5 @@ bot.load_extension('cogs.Music')
 bot.load_extension('cogs.Races')
 bot.load_extension('cogs.RandomDND')
 
+#You can substitute your token here for your Discord bot
 bot.run(os.getenv('TOKEN'))
